@@ -94,7 +94,7 @@ var firstTime = firstTrain;
    "<tr><td>" + trainName +
    "</td><td>" + destination +
    "</td><td>" + frequency + " mins" +
-   "</td><td>" + moment(nextTrain).format("hh:mm") +
+   "</td><td>" + moment(nextTrain).format("hh:mm A") +
    "</td><td>" + tMinutesTillTrain + " mins" +
    "</td></tr>");
 });
